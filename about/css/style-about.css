@@ -1,0 +1,98 @@
+
+body {
+  background-image: url("../images/Wood.jpg");
+  background-size: 1700px 900px;
+}
+
+
+h1{
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  font-weight:normal;
+  }
+
+.logo{
+  width: 427px;
+  height: 170px;
+  float:left;
+  position:absolute;
+  top: -5px;
+  z-index: 20;
+}
+
+
+header{
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+  position:fixed;
+  top:0px;
+  right:0px;
+  background: #413734;
+  width: 80%;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 34px;
+}
+
+header nav li:hover{
+    color: #c8b3a9;
+}
+
+header nav li:visited{
+  color: #413734;
+
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:-webkit-any-link:hover{
+  color: #c8b3a9;
+}
+
+
+
+main{
+  padding-top: 180px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.paragraph{
+  font-size: 30px;
+  color: white;
+  border: solid;
+  border-width:thick;
+  height: 150px;
+  text-align: center;
+border-color: #c8b3a9;
+border-radius: 4px;
+}
+
+.Contact{
+  color: white;
+  font-size: 20px;
+}
+
+form{
+background: #c8b3a9;
+padding: 10px;
+max-width: 325px;
+border-radius: 4px;
+}
+
+.submit:hover{
+  background-color: red;
+}
+
+.submit:visited{
+  color:#c8b3a9;
+}
