@@ -14,7 +14,7 @@
     <header>
       <nav>
         <ul>
-          <li><a href="../Home/home.html">Home</a></li>
+          <li><a href="../home.html">Home</a></li>
           <li><a href="../Products/product.html">Products</a></li>
           <li><a href="../About/about.html">About</a></li>
           <li><a href="../Blog/blog.html">Blog</a></li>
@@ -38,7 +38,7 @@
     </section>
 
     <section class="form">
-      <form name="Contact" method="POST" action="">
+      <form name="Contact" id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
         <div class="first-name">
           <label for="firstname" class="label_input_wrap">First Name:</label>
           <input type="text" name="firstname" id="firstname" placeholder="ex. William" />
