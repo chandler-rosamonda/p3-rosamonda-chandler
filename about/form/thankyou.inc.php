@@ -1,14 +1,17 @@
 <style type="text/css">
 
 body {
-  background-image: url("../images/Wood.jpg");
+  background-image: url("images/Wood.jpg");
   background-size: 1700px 900px;
 }
 
 
 h1{
-  font-size: 80px;
-  text-align: center;
+  color: white;
+  font-weight:normal;
+  }
+
+p{
   color: white;
   font-weight:normal;
   }
@@ -58,15 +61,23 @@ a:-webkit-any-link {
 a:-webkit-any-link:hover{
   color: #c8b3a9;
 }
+
+.container{
+position: fixed;
+top: 200px;
+
+}
+
 </style>
 
+<img class="logo" src="images/logo.png" title="Highlystained"/>
 <header>
   <nav>
     <ul>
-      <li><a href="../home.html">Home</a></li>
-      <li><a href="../Products/product.html">Products</a></li>
-      <li><a href="../About/about.html">About</a></li>
-      <li><a href="../Blog/blog.html">Blog</a></li>
+      <li><a href="../inxed.html">Home</a></li>
+      <li><a href="../products/index.html">Products</a></li>
+      <li><a href="../about/index.html">About</a></li>
+      <li><a href="../blog/index.html">Blog</a></li>
     </ul>
   </nav>
 </header>
