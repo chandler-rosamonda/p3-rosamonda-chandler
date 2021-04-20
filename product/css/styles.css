@@ -12,7 +12,7 @@ body {
   height: 170px;
   float:left;
   position:absolute;
-  top: -5px;
+  top: -25px;
   z-index: 20;
 }
 
@@ -46,14 +46,53 @@ h1{
   font-weight:normal;
   }
 
+  /* Image titles */
+  p{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .cross{
+    position: fixed;
+    top: 400px;
+    left: 150px;
+  }
+
+  .daybreak{
+    position: fixed;
+    top: 400px;
+    left: 450px;
+  }
+
+  .stained{
+    position: fixed;
+    top: 400px;
+    left: 750px;
+  }
+
+  .star{
+    position: fixed;
+    top: 400px;
+    left: 1050px;
+  }
+
+  .knight{
+    position: fixed;
+    top: 400px;
+    left: 1340px;
+  }
+
 /* Images */
 img{
   width: 250px;
   height: auto;
   margin: 20px;
-  
 }
-
+.images{
+  position: fixed;
+  top: 500px;
+}
 
 
 main{
