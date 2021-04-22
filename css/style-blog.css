@@ -1,14 +1,8 @@
-/* Reset Rule*/
+/*Background*/
 body {
   background-image: url("../images/Wood.jpg");
   background-size: 1700px 900px;
 }
-
-main{
-  padding-top: 180px;
-  max-width: 90%;
-  margin: 0 auto;
-
 
 /* Title */
 h1{
@@ -101,3 +95,9 @@ td{
   color: white;
   font-size: 15px;
 }
+
+
+main{
+  padding-top: 180px;
+  max-width: 90%;
+  margin: 0 auto;

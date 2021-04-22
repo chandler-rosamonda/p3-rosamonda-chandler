@@ -4,11 +4,6 @@ body {
   background-size: 1700px 900px;
 }
 
-main{
-  padding-top: 180px;
-  max-width: 90%;
-  margin: 0 auto;
-
 /* Navigation */
 .logo{
   width: 427px;
@@ -98,4 +93,11 @@ img{
 .images{
   position: fixed;
   top: 500px;
+}
+
+/* Main */
+main{
+  padding-top: 180px;
+  max-width: 90%;
+  margin: 0 auto;
 }
