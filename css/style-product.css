@@ -1,10 +1,13 @@
-/* Background */
+/* Reset Rule*/
 body {
   background-image: url("../images/Wood.jpg");
   background-size: 1700px 900px;
 }
 
-
+main{
+  padding-top: 180px;
+  max-width: 90%;
+  margin: 0 auto;
 
 /* Navigation */
 .logo{
@@ -95,11 +98,4 @@ img{
 .images{
   position: fixed;
   top: 500px;
-}
-
-/* Main */
-main{
-  padding-top: 180px;
-  max-width: 90%;
-  margin: 0 auto;
 }

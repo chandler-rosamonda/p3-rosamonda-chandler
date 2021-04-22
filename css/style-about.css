@@ -1,8 +1,13 @@
-/* Background */
+/* Reset Rule*/
 body {
   background-image: url("../images/Wood.jpg");
   background-size: 1700px 900px;
 }
+
+main{
+  padding-top: 180px;
+  max-width: 90%;
+  margin: 0 auto;
 
 /* Title */
 h1{
@@ -59,14 +64,6 @@ a:-webkit-any-link {
 
 a:-webkit-any-link:hover{
   color: #c8b3a9;
-}
-
-
-
-main{
-  padding-top: 180px;
-  max-width: 90%;
-  margin: 0 auto;
 }
 
 /* Description */
