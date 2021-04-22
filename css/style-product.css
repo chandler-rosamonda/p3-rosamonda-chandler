@@ -37,6 +37,21 @@ header nav li:hover{
     color: #c8b3a9;
 }
 
+header nav li:visited{
+  color: #413734;
+
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:-webkit-any-link:hover{
+  color: #c8b3a9;
+}
+
 /* Title */
 h1{
   font-family: 'Libre Caslon Text', serif;
