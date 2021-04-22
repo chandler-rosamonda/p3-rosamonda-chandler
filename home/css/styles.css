@@ -57,6 +57,11 @@ img{
   position: fixed;
   left: 665px;
 }
+figure{
+  color: white;
+  position: fixed;
+  left: 550px;
+}
 
 .border img {
 transition: .5s ease;
