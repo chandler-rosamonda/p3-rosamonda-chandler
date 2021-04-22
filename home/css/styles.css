@@ -72,3 +72,13 @@ main{
   max-width: 90%;
   margin: 0 auto;
 }
+
+
+footer{
+  font-family: 'Arimo', sans-serif;
+  font-size: 10px;
+  color: white;
+  float: left;
+  position: fixed;
+  bottom: 10px;
+}
