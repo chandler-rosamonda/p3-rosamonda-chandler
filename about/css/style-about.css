@@ -1,9 +1,10 @@
+/* Background */
 body {
   background-image: url("../images/Wood.jpg");
   background-size: 1700px 900px;
 }
 
-
+/* Title */
 h1{
   font-family: 'Libre Caslon Text', serif;
   font-size: 80px;
@@ -12,6 +13,7 @@ h1{
   font-weight:normal;
   }
 
+/* Navigation */
 .logo{
   width: 427px;
   height: 170px;
@@ -67,6 +69,7 @@ main{
   margin: 0 auto;
 }
 
+/* Description */
 .paragraph{
   font-family: 'Arimo', sans-serif;
   font-size: 25px;
@@ -79,6 +82,7 @@ border-color: #c8b3a9;
 border-radius: 4px;
 }
 
+/* From */
 p::first-letter {
   font-family: 'Arimo', sans-serif;
   color: #c8b3a9;

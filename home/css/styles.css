@@ -1,9 +1,10 @@
-
+/* Background */
 body {
   background-image: url("../images/Wood.jpg");
   background-size: 1700px 900px;
 }
 
+/* Title */
 h1{
   font-family: 'Libre Caslon Text', serif;
   font-size: 70px;
@@ -12,6 +13,7 @@ h1{
   font-weight:normal;
   }
 
+/* Navigation */
 .logo{
   width: 427px;
   height: 170px;
@@ -45,6 +47,7 @@ header nav li:hover{
     color: #c8b3a9;
 }
 
+/* Description */
 p{
   font-family: 'Arimo', sans-serif;
   color: white;
@@ -52,6 +55,7 @@ p{
   text-align: center;
 }
 
+/* Figure */
 img{
   width:350px;
   position: fixed;
@@ -63,6 +67,7 @@ figure{
   left: 550px;
 }
 
+/* Hover */
 .border img {
 transition: .5s ease;
 }
@@ -72,13 +77,13 @@ box-shadow: 0 0 0 10px #000000;
 transition: .5s ease;
 }
 
+/* Main */
 main{
   padding-top: 180px;
   max-width: 90%;
   margin: 0 auto;
 }
-
-
+/* Footer */
 footer{
   font-family: 'Arimo', sans-serif;
   font-size: 10px;
